@@ -1,0 +1,144 @@
+/*homework code: .inline-block {
+    display: inline-block;
+    vertical-align: top;
+}*/
+
+body {
+    background-color: black;
+}
+
+.logo {
+    padding: 1%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 40%;
+}
+
+#navContainer {
+    display: inline-block;
+    position: fixed;
+    width: 66px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #C9DAF8;
+    box-sizing: border-box;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+}
+nav {
+    /*homework code: width: 73%;*/
+    width: 64px;
+    height: 99%;
+    background-color: black;
+    position: fixed;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+}
+
+/*nav > ul {
+    width: 50%;
+    margin-left: auto; 
+}*/
+
+.heroImg {
+    height: 100%;
+    padding: 25px;
+    width: 100%;
+    margin: 0;
+    float: right;
+    background-color: black;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    outline: 3px solid #C9DAF8;
+    /*clip-path: polygon(64px 75%, 100% 75%, 100% 100%, 0% 100%);*/
+}
+
+footer ul {
+    /*homework code: vertical-align: top;*/
+    padding: 1%;
+    width: 50%;
+    height: 65px;
+    margin-left: auto;
+    margin-right: 5%;
+    display: block;
+}
+
+h2 {
+    font-family: 'Orbitron';
+    font-size: 48px;
+    color: #E69138;
+    margin-left: 5%;
+}
+
+h1 {
+    font-family: 'Orbitron';
+    font-size: 64px;
+    color: white;
+    margin-left: 5%;
+    text-shadow: 0 0 10px #E69138, 0 0 20px #E69138, 0 0 30px #E69138, 0 0 40px #E69138, 0 0 50px #E69138;
+}
+
+.heroImg p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #C9DAF8;
+    width: 500px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+button {
+    font-family: 'Montserrat';
+    font-size: 14px
+}
+
+li {
+    font-family: 'Orbitron';
+    font-size: 14px;
+    color: #C9DAF8;
+}
+
+nav ul li {
+    text-align: center;
+    margin-bottom: 20%;
+    padding: 1%;
+}
+
+footer ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+footer p {
+    float: right;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    justify-content: flex-end;
+    margin-right: 1%;
+    color: #C9DAF8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    margin-right:-1%;
+    color: #C9DAF8;
+}
